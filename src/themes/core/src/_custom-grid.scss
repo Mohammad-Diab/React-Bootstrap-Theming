@@ -1,0 +1,36 @@
+@use "sass:color";
+@import "~bootstrap/scss/variables";
+
+.custom-grid {
+    display: flex;
+    margin-bottom: calc($paragraph-margin-bottom / 2);
+    .custom-grid-item {
+        text-align: center;
+        border: solid 1px $border-color;
+        padding: 1em 0.5em;
+        cursor: pointer;
+        background-color: $body-bg;
+
+        &:not(:first-child) {
+            border-left: none;
+        }
+
+        &:first-child {
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+
+        &:last-child {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+        }
+
+        &:hover {
+            background-color: color.adjust($body-bg, $lightness: -3%);
+        }
+
+        &:active {
+            background-color: color.adjust($body-bg, $lightness: -7%);
+        }
+    }
+}

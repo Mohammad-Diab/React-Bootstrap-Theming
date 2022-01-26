@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+        <symbol viewBox="0 0 500 500" id="next-icon">
+            <style type="text/css">.str{stroke:inherit;stroke-width:10}.bg{fill:inherit}</style>
+            <circle class="bg str" cx="250" cy="250" r="220" />
+            <path class="str" fill="currentColor" d="M420 230l-100-100c-5-5-10-10-20-10s-20 10-20 20v50c0 5-5 10-10 10h-190c-5 0-10 5-10 10v80c0 5 5 10 10 10h190c5 0 10 5 10 10v50c0 10 10 20 20 20s15-5 20-10l100-100c13.5-13.5 13.5-26.5 0-40z" />
+        </symbol>
+        <symbol viewBox="0 0 128 128" id="user-icon">
+            <style type="text/css">.cls-1{fill:currentColor;}.cls-2{fill:inherit;}.cls-3 {fill:#303442;opacity:0.08;}.cls-4{fill:none;stroke:inherit;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}</style>
+            <path class="cls-1" d="M83.32,89.6c3.91,2.27,8.39,4.87,11.6,8.46a46.00544,46.00544,0,0,1-61.84,0c3.21-3.59,7.69-6.19,11.6-8.46,4.8-2.79,8.95-5.2,8.95-8.22a10.547,10.547,0,0,0-3.9-8.43c-2.29-.38-3.49-4.68-3.49-7.04a3.28386,3.28386,0,0,1,.98-2.77c-1.66-5.39-1.63-12.87,2.14-18.16,2.95-4.14,7.81-6.34,14.06-6.36a13.35055,13.35055,0,0,1,12.87,2.71c2.81,2.53,7.08,8.7,4.47,21.75.54.38,1.06,1.17,1.06,2.83,0,2.36-1.2,6.67-3.5,7.04a10.46769,10.46769,0,0,0-3.95,8.43C74.37,84.4,78.52,86.81,83.32,89.6Z" />
+            <path class="cls-2" d="M64,18A46.00132,46.00132,0,0,1,94.92,98.06c-3.21-3.59-7.69-6.19-11.6-8.46-4.8-2.79-8.95-5.2-8.95-8.22a10.46769,10.46769,0,0,1,3.95-8.43c2.3-.37,3.5-4.68,3.5-7.04,0-1.66-.52-2.45-1.06-2.83,2.61-13.05-1.66-19.22-4.47-21.75a13.35055,13.35055,0,0,0-12.87-2.71c-6.25.02-11.11,2.22-14.06,6.36-3.77,5.29-3.8,12.77-2.14,18.16a3.28386,3.28386,0,0,0-.98,2.77c0,2.36,1.2,6.66,3.49,7.04a10.547,10.547,0,0,1,3.9,8.43c0,3.02-4.15,5.43-8.95,8.22-3.91,2.27-8.39,4.87-11.6,8.46A46.00132,46.00132,0,0,1,64,18Z" />
+            <path class="cls-3" d="M64,100A45.99494,45.99494,0,0,1,18.275,59,46.49952,46.49952,0,0,0,18,64a46,46,0,0,0,92,0,46.49952,46.49952,0,0,0-.275-5A45.99494,45.99494,0,0,1,64,100Z" />
+            <path class="cls-4" d="M33.08,98.06c3.21-3.59,7.69-6.19,11.6-8.46,4.8-2.79,8.95-5.2,8.95-8.22a10.547,10.547,0,0,0-3.9-8.43c-2.29-.38-3.49-4.68-3.49-7.04a3.28386,3.28386,0,0,1,.98-2.77c-1.66-5.39-1.63-12.87,2.14-18.16,2.95-4.14,7.81-6.34,14.06-6.36a13.35055,13.35055,0,0,1,12.87,2.71c2.81,2.53,7.08,8.7,4.47,21.75.54.38,1.06,1.17,1.06,2.83,0,2.36-1.2,6.67-3.5,7.04a10.46769,10.46769,0,0,0-3.95,8.43c0,3.02,4.15,5.43,8.95,8.22,3.91,2.27,8.39,4.87,11.6,8.46" />
+            <path class="cls-4" d="M33.08,98.06A46.00544,46.00544,0,1,1,64,110,45.89134,45.89134,0,0,1,33.08,98.06Z" />
+        </symbol>
+        <symbol viewBox="0 0 500 500" id="calender-icon">
+            <style type="text/css">.str{stroke:inherit;}.lgt-str{stroke-opacity:0.7}.lgt-fil{fill-opacity:0.7}.bg{fill:inherit}.fil{fill:inherit;}</style>
+            <path d="M40 90h420v310c0 6-5 10-10 10h-400c-5 0-10-4-10-10v-310z" fill="#434242" class="str" stroke-width="10" />
+            <path d="M65 60h370c14 0 25 11 25 25v15h-420v-15c0-14 11-25 25-25z" class="str fil" stroke="#434242" stroke-width="10" />
+            <path d="M50 110h400v285c0 3-2 5-5 5h-390c-3 0-5-2-5-5v-285z" fill="#fff" class="str" stroke-width="10" />
+            <rect fill="currentColor" height="59.997" width="89.998" class="lgt-str str" stroke-width="7.5" x="70" y="315" />
+            <rect fill="currentColor" height="59.997" width="89.998" class="lgt-str str" stroke-width="7.5" x="160" y="315" />
+            <rect fill="currentColor" height="59.997" width="89.998" class="lgt-str str" stroke-width="7.5" x="250" y="315" />
+            <rect fill="currentColor" height="59.997" width="89.998" class="lgt-str str" stroke-width="7.5" x="340" y="315" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="70" y="255" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="160" y="255" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="250" y="255" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="340" y="255" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="250" y="195" />
+            <rect fill="currentColor" height="59.998" width="89.998" class="lgt-str str" stroke-width="7.5" x="340" y="195" />
+            <rect height="59.997" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="70" y="135" />
+            <rect height="59.997" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="160" y="135" />
+            <rect height="59.997" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="340" y="135" />
+            <rect height="59.997" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="250" y="135" />
+            <rect height="59.998" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="70" y="195" />
+            <rect height="59.998" width="89.998" class="str lgt-fil fil" stroke-width="7.5" x="160" y="195" />
+        </symbol>
+
+        <symbol viewBox="0 0 500 500" id="apps-icon">
+            <style type="text/css">.str{stroke:inherit;}.fil{fill:inherit;}</style>
+            <path class="str fil" d="M200 190h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0-150h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0 300h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm-150-150h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0-150h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0 300h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm300-150h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0-150h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10zm0 300h100c6 0 10 4 10 10v100c0 6-4 10-10 10h-100c-6 0-10-4-10-10v-100c0-6 4-10 10-10z" stroke-width="10" />
+        </symbol>
+    </defs>
+</svg>

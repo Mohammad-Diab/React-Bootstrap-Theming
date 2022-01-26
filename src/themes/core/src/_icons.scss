@@ -1,0 +1,7 @@
+@use "sass:map";
+
+.svg-icon {
+    stroke: map.get($icon-colors, "stroke");
+    color: map.get($icon-colors, "color");
+    fill: map.get($icon-colors, "fill");
+}

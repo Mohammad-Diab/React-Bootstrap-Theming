@@ -1,0 +1,83 @@
+@import "~bootstrap/scss/functions";
+
+$primary: #00bfa5;
+
+$enable-rounded: false;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+
+$body-bg: #212529;
+$body-color: #dee2e6;
+$border-color: #495057;
+$text-muted: #adb5bd;
+
+$card-bg: #2b3035;
+$card-cap-bg: rgba(#fff, .03);
+$card-border-color: $border-color;
+
+$dropdown-bg: #2b3035;
+$dropdown-color: $body-color;
+$dropdown-border-color: $border-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-color: #fff;
+$dropdown-link-hover-bg: #343a40;
+$dropdown-header-color: $text-muted;
+
+$input-bg: #2b3035;
+$input-color: $body-color;
+$input-border-color: $border-color;
+$input-disabled-bg: #343a40;
+$input-placeholder-color: #6c757d;
+$form-check-input-border: 1px solid rgba(#fff, .25);
+$form-switch-color: rgba(#fff, .25);
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/utilities";
+
+$utilities: map-merge(
+    $utilities,
+    (
+        "height": map-merge(
+            map-get($utilities, "height"),
+            (responsive: true),
+        ),
+    )
+);
+
+$footer-colors: (
+    "border": $border-color,
+    "background": $card-bg,
+    "text": $body-color
+);
+
+$icon-colors: (
+    "stroke": #dee2e6,
+    "color": #343a40,
+    "fill": #00bfa5
+);
+
+@import "../core/src/footer";
+@import "../core/src/icons";
+@import "../core/src/static";
+@import "../core/src/custom-grid";
+
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    color-scheme: dark;
+}
+
+.navbar.bg-primary {
+    background-color: $card-bg !important;
+
+    .nav-dropdown .btn-primary {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .nav-dropdown .btn-primary:hover,
+    .nav-dropdown .show > .btn-primary {
+        background-color: $dropdown-link-hover-bg;
+    }
+}

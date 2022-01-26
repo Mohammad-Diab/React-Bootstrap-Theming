@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/functions";
+
+$primary: #00bfa5;
+
+$enable-rounded: false;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/utilities";
+
+$utilities: map-merge(
+    $utilities,
+    (
+        "height": map-merge(
+            map-get($utilities, "height"),
+            (responsive: true),
+        ),
+    )
+);
+
+$footer-colors: (
+    "border": #d3d3d3,
+    "background": #fff,
+    "text": #333
+);
+
+$icon-colors: (
+    "stroke": #333,
+    "color": #eee,
+    "fill": #00bfa5
+);
+
+@import "../core/src/footer";
+@import "../core/src/icons";
+@import "../core/src/static";
+@import "../core/src/custom-grid";
+
+@import "~bootstrap/scss/bootstrap";

@@ -1,0 +1,33 @@
+#svg-sprites {
+    display: none !important;
+}
+
+.content {
+    padding-top: 4rem;
+    height: 100vh;
+}
+
+.content > div.container {
+    padding-bottom: 4rem;
+    border-bottom: solid 1px transparent;
+}
+
+.user-image {
+    width: 5rem;
+    height: auto;
+}
+
+.nav-dropdown {
+    .dropdown {
+        margin: -0.25rem 0;
+    }
+    .dropdown-toggle:after {
+        display: none !important;
+    }
+
+    .dropdown-menu.show {
+        margin-top: 0.5rem;
+        width: 15em;
+        box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 15%);
+    }
+}

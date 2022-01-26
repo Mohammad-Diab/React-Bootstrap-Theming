@@ -1,0 +1,19 @@
+@use "sass:map";
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: solid 1px map.get($footer-colors, "border");
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 4px 24px;
+    background: map.get($footer-colors, "background");
+    color: map.get($footer-colors, "text");
+}
+
+.footer span {
+    font-weight: 400;
+}
